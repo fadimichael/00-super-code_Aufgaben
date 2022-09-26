@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: fred;
+  src: url("../fonts/FrederickatheGreat-Regular.ttf");
+}
+@font-face {
+  font-family: open;
+  src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+.sec1 {
+  background-image: url("../img/Lev3_2_css-einführung_box-model_img.jpeg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: white;
+  font-family: fred;
+  font-size: 40px;
+  padding: 15px 150px;
+}
+
+.art1 {
+  color: white;
+}
+
+.art1 h2 {
+  margin: 20px auto;
+  text-align: center;
+  font-family: fred;
+}
+.art1 span {
+  text-transform: uppercase;
+}
+
+.art1 p {
+  width: 300px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.btn1 {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 30px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 150px;
+}
+
+aside {
+  text-align: right;
+  margin: 20px 50px;
+}
+
+aside a {
+  color: white;
+  text-decoration: none;
+  font-family: open;
+}
+aside li {
+  padding: 10px;
+}
+
+.sec2 h2 {
+  font-family: fred;
+  padding: 15px 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sec2 p {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.btn2 {
+  text-decoration: none;
+  border: 6px double gray;
+  padding: 10px 45px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 200px;
+  font-family: open;
+}
+
+footer {
+  background-color: #3a3b4a;
+  color: white;
+  margin-top: 100px;
+}
+
+footer p {
+  width: 600px;
+  height: 75px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+footer .btn3 {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 5px 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+footer ul {
+  text-align: right;
+}
+footer ul li {
+  margin-right: 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}

@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+
+h2 , main p{
+    color: red;
+}
+
+img{
+    border: 15px solid green;
+    border-radius: 50%;
+    width: 150px;
+}
+div{
+    background-color: rgb(177, 174, 174);
+    width: 500px;
+}
+
+div p:nth-of-type(1){
+    color: green;
+}
+
+div p:nth-of-type(2){
+    color: black;
+}

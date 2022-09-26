@@ -1,0 +1,9 @@
+section{
+    background-image: url("../img/gradient_bg_vertical.png");
+    background-repeat: repeat-y;
+}
+article{
+    background-image: url("../img/466-200x300.jpg");
+    background-position:top right;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,81 @@
+body{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+@font-face {
+    font-family: cinzel;
+    src: url("../fonts/Cinzel-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: lato_light;
+    src: url("../fonts/Lato-Light.ttf");
+}
+@font-face {
+    font-family: lato_black;
+    src: url("../fonts/Lato-Black.ttf");
+}
+@font-face {
+    font-family: pacifico;
+    src: url("../fonts/Pacifico-Regular.ttf");
+}
+@font-face {
+    font-family: shadows;
+    src: url("../fonts/ShadowsIntoLight-Regular.ttf");
+}
+h1{
+    font-family: shadows;
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+    text-shadow: 4px 4px red;
+}
+h2{
+    background-color: #90EE90;
+    font-family: pacifico;
+    word-spacing: 10px;
+
+}
+strong{
+    color: #FFEC8B;
+}
+em{
+    color: #FF211F;
+    font-family: lato_black;
+}
+h3{
+    font-family:shadows ;
+    font-size: 25px;
+    word-spacing: 10px;
+}
+p{
+    font-family: lato_light;
+    font-size: 15px;
+    word-spacing: 10px;
+}
+ol li{
+    text-transform: uppercase;
+    color: red;
+    margin: 20px;
+    line-height: 30px;
+}
+h4{
+    font-family: pacifico;
+    background-color: #FFFF00;
+    text-shadow: -8px 3px gray;
+    text-align: center;
+    word-spacing: 15px;
+    margin: 50px;
+    font-size: 40px;
+    text-align: right;
+}
+h5{
+    text-transform: uppercase;
+    font-family: cinzel;
+    word-spacing: 10px;
+}
+ul{
+    background-color: #D3D3D3;
+}
+ul li{
+    margin: 15px;
+}

@@ -1,0 +1,30 @@
+h1{
+    font-size: 48px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4C4C4C;
+    text-shadow: 4px 4px black;
+    text-align: center;
+}
+nav p{
+    word-spacing: 20px;
+    text-indent: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main p{
+    word-spacing: 40px;
+    text-indent: 100px;
+}
+h2{
+    text-shadow: 3px 3px gray;
+    letter-spacing: 10px;
+}
+section p{
+    line-height: 40px;
+    background-color: lightgray;
+}
+aside p{
+    color: white;
+    background-color: gray;
+    line-height: 40px;
+}

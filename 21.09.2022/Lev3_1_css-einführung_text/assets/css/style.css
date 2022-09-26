@@ -1,0 +1,29 @@
+h1{
+    font-size: 48px;
+    background-color: #4C4C4C;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main p , section p{
+    text-transform:capitalize;
+    text-decoration: underline;
+    padding-left: 60px;
+}
+h2{
+    color: gray;
+    word-spacing: 30px;
+    letter-spacing: 10px;
+    text-shadow: 3px 3px lightgray;
+    text-align: center;
+}
+ul{
+    background-color: #D3D3D3;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+li{
+    background-color: #999999;
+    padding-left: 60px;
+}
