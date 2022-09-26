@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">GitHub Cheat Sheet</a></li>
+          <li><a href="#">HTML Cheat Sheet</a></li>
+          <li><a href="#">CSS Cheat Sheet</a></li>
+          <li><a href="#">Terminal Cheat Sheet</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>GitHub Cheat Sheet</h1>
+      <div>
+        <article>
+          <h2>Globale Einstellungen</h2>
+          <p class="para1">
+            $ git config --global user.name “[Vorname Nachname]”
+          </p>
+          <p>
+            Setzt den Benutzernamen, den du an deine Commit-Transaktionen hängen
+            willst
+          </p>
+          <p class="para1">
+            $ git config --global user.email "[email address]"
+          </p>
+          <p>
+            Setzt die Emailadresse, die du an deine Commit-Transaktionen hängen
+            willst
+          </p>
+        </article>
+        <article>
+          <h2>Remote Repo klonen zu dein Lokalen Repo</h2>
+          <p class="para1">$ git clone [url]</p>
+          <p>
+            Klont ein Projekt und lädt seine gesamte Versionshistorie herunter
+          </p>
+        </article>
+        <article>
+          <h2>Lokale Repo ersttelen</h2>
+          <p class="para1">$ git init [project-name]</p>
+          <p>Legt ein neues lokales Repo mit dem angegebenen Namen an</p>
+        </article>
+        <article>
+          <h2>Änderungen vornehmen</h2>
+          <p class="para1">$ git add [file]</p>
+          <p>Indiziert den derzeitigen Stand der Datei für die Versionierung</p>
+          <p class="para1">$ git commit -m"[descriptive message]"</p>
+          <p>
+            Nimmt alle derzeit indizierten Dateien permanent in die
+            Versionshistorie auf
+          </p>
+          <p class="para1">$ git push [remote] [branch]</p>
+          <p>Pusht alle Commits auf dem lokalen Branch zu GitHub/p></p>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>
