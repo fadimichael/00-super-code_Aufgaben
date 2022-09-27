@@ -17,6 +17,10 @@ html {
   font-family: gildaDisplay;
   src: url(../font/GildaDisplay-Regular.ttf);
 }
+@font-face {
+  font-family: mavenBold;
+  src: url(../font/MavenPro-Bold.ttf);
+}
 
 header {
   background-color: #333;
@@ -25,7 +29,7 @@ header {
 header h1 {
   color: #ccc;
   font-size: 3rem;
-  font-family: mavenPro;
+  font-family: mavenBold;
   padding: 1rem 2rem;
   letter-spacing: 0.75rem;
 }
