@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* changes a default 16px font size to 10px */
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 2rem;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 2rem;
+}
+
+li {
+  line-height: 3rem;
+  font-size: 3rem;
+}
+ul {
+  padding: 0.8em;
+  list-style: none;
+}
+li {
+  padding-left: 2rem;
+}
+.dogs {
+  list-style: "🐶";
+}
+.cats {
+  list-style: "🐱";
+}
+.parrots {
+  list-style: "🐦";
+}
+.snakes {
+  list-style: "🐍";
+}
+.lizzards {
+  list-style: "🦎";
+}
+
+section {
+  margin: 2rem;
+  padding: 1rem;
+  border: 0.3rem solid black;
+}

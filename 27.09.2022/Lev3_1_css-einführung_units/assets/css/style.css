@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* changes a default 16px font size to 10px */
+}
+
+body {
+  background-image: url("../imgs/tim-stief-YFFGkE3y4F8-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+h2 p {
+  font-family: helvetica;
+}
+section {
+  background-color: rgb(64, 63, 63);
+  margin: 3rem auto;
+  opacity: 50%;
+  width: 90vw;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: white;
+  padding: 2rem 3rem;
+  text-align: center;
+}
+
+article {
+  background-color: rgb(174, 174, 174);
+  padding: 2rem 3rem;
+  text-align: center;
+  padding: 3rem;
+  opacity: 70%;
+  line-height: 4rem;
+  width: 90vw;
+  margin: auto;
+}
+
+p {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 6rem;
+}
