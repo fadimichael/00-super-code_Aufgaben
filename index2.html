@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+  <body>
+    <!-- Elternelement für Formulare -->
+    <form>
+      <!-- Für Barrierefreiheit IMMER Label verwenden, wenn im Layout keins ist, können wir das über's CSS ausblenden -->
+      <!-- Das for Tag bezieht sich auf die ID des Inputs -->
+      <label for="name-input">Name</label>
+      <!-- Wir bekommen ein Inputfeld, in dem wir Text eingeben können -->
+      <input type="text" name="name-input" id="name-input" />
+      <!-- Mit dem placeholder können wir Text im Input Element anzeigen lassen, sobald man etwas eingibt, verschwindet der Text -->
+      <!-- <input type="text" placeholder="Name"> -->
+
+      <label for="number-input">Alter</label>
+      <!-- Wir bekommen ein Inputfeld, in dem wir eine Nummer eingeben können -->
+      <input type="number" name="number-input" id="number-input">
+
+      <label for="tel-input">Telefonnummer</label>
+      <!-- Wir bekommen ein Inputfeld, in dem wir eine Telefonnummer eingeben können -->
+      <input type="tel" name="tel-input" id="tel-input">
+
+    <label for="email-input">Email</label>
+    <!-- Wir bekommen ein Inputfeld, in dem wir eine Email Adresse eingeben können. Wenn bei der Eingabe kein @ enthalten ist, meckert der Browser -->
+      <input type="email" name="email-input" id="email-input">
+
+      <!-- Wir bekommen ein Radio input -->
+      <label for="radio-input-w">weiblich</label>
+      <!-- Wenn wir im Input den gleichen Namen vergeben, versteht der Browser, dass die Elemente zusammen gehören und man kann nur ein Element auswählen -->
+      <input type="radio" name="radio-input" id="radio-input-w" class="radio">
+      <label for="radio-input-m">männlich</label>
+      <input type="radio" name="radio-input" id="radio-input-m">
+      <label for="radio-input-d">divers</label>
+      <input type="radio" name="radio-input" id="radio-input-d">
+
+      <label for="checkbox-input">Ich mag Hunde</label>
+      <!-- Wir bekommen eine Checkbox, mit required "zwingen" wir den Benutzer den Haken zu setzen -->
+      <input type="checkbox" name="checkbox-input" id="checkbox-input" required>
+
+      <br/>
+      <label for="date-input">Datum</label>
+      <!-- Wir bekommen ein Inputfeld, in dem wir ein Datum eingeben können -->
+      <input type="date" name="date-input" id="date-input">
+
+      <label for="password-input">Passwort</label>
+      <!-- Wir bekommen ein Inputfeld, in dem wir ein Passwort eingeben können. Die Zeichen werden durch Punkt verdeckt -->
+      <input type="password" name="password-input" id="password-input">
+
+      <label for="file-input">Hier schmuddelige Bilder hochladen</label>
+      <input type="file" name="file-input" id="file-input">
+
+      <label for="range-input">Auf einer Skala von 1 bis 10: Wie cool ist das?</label>
+      <!-- Wir bekommen einen SChieberegler -->
+      <!-- Mit min und max können wir die Werte vergeben und später mit JS auslesen -->
+      <!-- Mit value können wir einen vorausgewählten Wert anzeigen lassen -->
+      <input type="range" name="range-input" id="range-input" min="0" max="10" value="8">
+
+      <!-- Wir bekommen ein Textinputfeld, in dem ein längeren Text eingeben können-->
+      <!-- Über cols und rows könnte man die Größe definieren, besser ist es aber das Styling über das CSS zu machen -->
+      <label for="textarea-input">Hier könnt ihr Text eingeben</label>
+      <textarea name="textarea-input" id="textarea-input" cols="50" rows="10"></textarea>
+
+      <label for="select-input">Was magst du lieber?</label>
+      <!-- Wir bekommen ein Dropdown -->
+      <select name="select-input" id="select-input">
+        <!-- Wir müssen verschiedene Optionen angeben, sonst bekommen wir ein leeres Dropdown -->
+        <option value="pizza">Pizza</option>
+        <!-- Durch selected wird ein Auswahlelement vorausgewählt -->
+        <option value="pommes" selected>Pommes</option>
+      </select>
+
+      <label for="select-input2">Was magst du lieber?</label>
+      <select name="select-input2" id="select-input2">
+        <!-- Wir haben ein zusätzliches Element erzeugt, was keinen Wert hat, vorausgewählt ist und nicht anklickbar ist -->
+        <option value="none" selected disabled>Wähle aus</option>
+        <option value="pizza">Pizza</option>
+        <option value="pommes" >Pommes</option>
+      </select>
+
+      <!-- Wir können auch einen Button verwenden, dem wir später mit JS zusätzliche Funktionalität zuweisen -->
+      <input type="button" value="Noch ein Button">
+
+      <!-- Wir bekommen einen Button, der unser Formular absendet -->
+      <input type="submit" value="Schick mich ab">
+
+    </form>
+  </body>
+</html>

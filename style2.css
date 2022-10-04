@@ -1,0 +1,11 @@
+input:not(input[type="radio"]):not(input[type="checkbox"]) {
+  /* display: none; */
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* :außer(Element, was nicht gestylt wird) */
+/* :not(p) */
+textarea {
+  width: 100%;
+}

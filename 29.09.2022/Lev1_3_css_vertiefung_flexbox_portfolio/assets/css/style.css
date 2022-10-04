@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: zilla;
+  src: url(../fonts/ZillaSlab-Bold.ttf);
+}
+@font-face {
+  font-family: zilla-regular;
+  src: url(../fonts/ZillaSlab-Regular.ttf);
+}
+
+/* ========= navigation section ========= */
+
+.nav-sec {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3rem 3rem 0rem 3rem;
+  /* position: relative; */
+}
+.logo-svg {
+  /* filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg)
+    brightness(119%) contrast(119%); */
+  height: 7rem;
+  position: absolute;
+  left: 2rem;
+  top: 0.5rem;
+}
+
+.developer-name {
+  font-family: zilla;
+  font-size: 4rem;
+  color: red;
+  margin-left: 3rem;
+}
+/* .developer-name::before {
+  content: url("../imgs/Fadysvg.svg");
+  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg)
+    brightness(119%) contrast(119%);
+} */
+.first-part {
+  border: 0.5rem solid white;
+  border-radius: 50%;
+  padding: 0rem 1.2rem 0rem 1.2rem;
+}
+.second-part {
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+.third-part {
+  letter-spacing: 0.5rem;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  font-family: zilla-regular;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  list-style: none;
+}
+.nav-list li {
+  padding: 2rem 2rem;
+}
+
+.nav-list li a {
+  text-decoration: none;
+}
+.nav-list li:nth-of-type(-n + 4) a {
+  color: white;
+}
+.nav-list li:nth-of-type(5) a {
+  color: #00f200;
+  padding: 0.6rem 2.5rem;
+  border: 0.4rem solid #00f200;
+  border-radius: 5rem;
+}
+
+.nav-list li:nth-of-type(5) a:hover {
+  opacity: 0.3;
+  color: red;
+  border: 0.4rem solid red;
+}
+/* ========= main section ========= */
+.main-sec1 {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+}
+/* ========= main1-left section ========= */
+.left-sec {
+  /* border: 1rem solid red; */
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fa-message {
+  font-size: 30rem;
+  margin-top: 30rem;
+}
+
+.main-para1,
+.main-para2 {
+  font-family: zilla-regular;
+}
+.main-para1 {
+  color: white;
+  margin-top: 10rem;
+  margin-left: -22rem;
+  font-size: 6rem;
+  margin-bottom: 10rem;
+  background-image: url("../imgs/message-solid.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 5rem 20rem 10rem 20rem;
+}
+.main-para2 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+.iam {
+  font-family: zilla-regular;
+  font-size: 8rem;
+  margin-left: -29rem;
+}
+.download1 {
+  font-family: zilla-regular;
+  font-size: 3rem;
+  color: white;
+  background-color: #00f200;
+  padding: 0.6rem 2.5rem;
+  border-radius: 5rem;
+  text-decoration: none;
+  max-width: 25rem;
+  margin-top: 2rem;
+  margin-bottom: 9rem;
+}
+.about-me1,
+.about-me2 {
+  font-family: zilla-regular;
+  font-size: 10rem;
+}
+.about-me1 {
+  margin: 0rem 0rem 0rem -20rem;
+}
+/* ========= main1-right section ========= */
+.right-sec {
+  /* border: 1rem solid blue; */
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.rand {
+  background-color: red;
+  width: 30vw;
+  height: 50vh;
+  margin-top: 10rem;
+  margin-left: 4rem;
+}
+.right-sec img {
+  width: 30vw;
+  height: 50vh;
+  margin-top: -62rem;
+}
+.main-para3 {
+  font-family: zilla-regular;
+  font-size: 2.5rem;
+  margin-top: 12rem;
+}
+.main-nav {
+  display: flex;
+  list-style: none;
+  bottom: 5%;
+}
+.main-nav li {
+  padding: 3rem;
+}
+.main-nav li a {
+  font-size: 5rem;
+  border-radius: 50%;
+  color: #00f200;
+}
+.main-nav li a:hover {
+  opacity: 0.3;
+  color: red;
+}

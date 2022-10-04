@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* changes a default 16px font size to 10px */
+}
+
+p {
+  background-color: #5cd9a5;
+  color: white;
+  font-size: 2rem;
+  width: 40rem;
+  text-align: center;
+  padding: 1.5rem;
+}
+form {
+  background-color: #f5f5f5;
+  width: 40rem;
+  padding: 2rem;
+}
+input {
+  display: block;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  width: 36rem;
+}
+textarea {
+  width: 36rem;
+  padding: 5px;
+  margin-bottom: 1.5rem;
+}
+
+input[type="submit"] {
+  background-color: #5cd9a5;
+  color: white;
+  font-size: 1.5rem;
+  width: 360px;
+  text-align: right;
+  padding: 1rem 1rem;
+  text-align: center;
+  border: 0.1rem solid #5cd9a5;
+}

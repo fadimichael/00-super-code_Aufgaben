@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-image: url("../imgs/background-foto.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.sec-nav {
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2rem 2rem 7rem;
+  /* background-color: #00b6e2;
+  opacity: 0.9; */
+}
+
+.site-name {
+  font-size: 5rem;
+  color: white;
+  text-transform: uppercase;
+}
+.nav-bar {
+  display: flex;
+  list-style: none;
+}
+
+.nav-bar li {
+  padding: 1rem 2rem;
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.3rem;
+  text-transform: capitalize;
+}
