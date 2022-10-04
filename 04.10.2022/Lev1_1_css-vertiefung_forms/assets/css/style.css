@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  margin-bottom: 20px;
+}
+span {
+  color: red;
+}
+input[type="text"] {
+  width: 198px;
+}
+input[type="email"],
+select {
+  width: 400px;
+}
+textarea {
+  width: 400px;
+}
+input[type="submit"] {
+  width: 400px;
+  background-color: #4895a2;
+  color: white;
+  padding: 7px;
+  border: 1px solid #4895a2;
+}
+input[type="submit"]:hover {
+  background-color: #000033;
+}
