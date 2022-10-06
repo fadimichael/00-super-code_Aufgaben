@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#gallery {
+  display: flex;
+  width: 800px;
+  height: 800px;
+  justify-content: space-around;
+  align-items: center;
+}
+img {
+  max-width: 250px;
+  max-height: 300px;
+}
+
+figcaption {
+  font-size: 28px;
+}
