@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  font-size: 40px;
+  font-weight: bold;
+}
+input[type="number"],
+button {
+  width: 400px;
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+button {
+  width: 200px;
+  background-color: white;
+  border: 10px solid lightblue;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 30px;
+}
+.result {
+  font-size: 40px;
+}

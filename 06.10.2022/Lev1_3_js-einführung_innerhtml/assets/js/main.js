@@ -12,3 +12,6 @@ document.getElementById("gallery").innerHTML =
   "<figcaption>Fig.2</figcaption></figure><figure>" +
   img3 +
   "<figcaption>Fig.3</figcaption></figure>";
+
+// document.querySelector("#gallery").innerHTML =
+//   "<figure><img src='./assets/imgs/aliya-amangeldi-P_gB8h6znSQ-unsplash.jpg'><figcaption>Fig.1</figcaption></figure>";
