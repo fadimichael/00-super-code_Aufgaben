@@ -1,0 +1,31 @@
+main {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+
+}
+
+body {
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  height: 30px;
+  width: 200px;
+  text-align: center;
+  ;
+}
+
+h1 {
+  text-align: center;
+}

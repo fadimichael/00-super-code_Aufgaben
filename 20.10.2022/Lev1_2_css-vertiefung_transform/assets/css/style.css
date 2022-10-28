@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  margin-top: 200px;
+  width: 80vw;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 100px;
+}
+
+div {
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+  transition: all 2s;
+  transition-timing-function: linear;
+}
+
+.box1:hover {
+  transform: translate(50%, 50%);
+}
+
+.box2:hover {
+  transform: translateX(100px);
+}
+
+.box3:hover {
+  transform: translateY(100px);
+}
+
+.box4:hover {
+  transform: rotate(45deg);
+}
+
+.box5:hover {
+  transform: scale(2);
+}
+
+.box6:hover {
+  transform: skew(15deg, 15deg);
+}

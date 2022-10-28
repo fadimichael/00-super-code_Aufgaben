@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+article {
+  padding-top: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  ;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.green-pink {
+  background: linear-gradient(45deg, #1A8F53, #1A8F53 50%, #6E0A60 51%, #6E0A60 100%)
+}
+
+.blue-yello {
+  background: linear-gradient(45deg, #444171, #444171 50%, #DAAB43 51%, #DAAB43 100%)
+}
+
+.black-orange {
+  background: linear-gradient(45deg, #00001F, #00001F 50%, #C65D0B 51%, #C65D0B 100%)
+}
+
+.blue-light-blue {
+  background: linear-gradient(45deg, #050356, #050356 50%, #26CCFE 51%, #26CCFE 100%)
+}

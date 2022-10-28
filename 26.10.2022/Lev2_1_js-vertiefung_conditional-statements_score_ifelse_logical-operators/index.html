@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <article>
+          <h2>John</h2>
+          <label for="john-age">Age</label>
+          <input
+            type="number"
+            name=""
+            id="john-age"
+            onchange="difference(event)"
+            required
+          />
+          <label for="john-height">Height</label>
+          <input
+            type="number"
+            name=""
+            id="john-height"
+            onchange="difference(event)"
+            required
+          />
+        </article>
+        <article>
+          <h2>Meike</h2>
+          <label for="meike-age">Age</label>
+          <input
+            type="number"
+            name=""
+            id="meike-age"
+            onchange="difference(event)"
+            required
+          />
+          <label for="meike-height">Height</label>
+          <input
+            type="number"
+            name=""
+            id="meike-height"
+            onchange="difference(event)"
+            required
+          />
+        </article>
+      </section>
+      <section class="result">
+        <h1 id="john-points"></h1>
+        <h1 id="meike-points"></h1>
+        <h1 id="winner"></h1>
+      </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,18 +1,18 @@
 const darkModeToggle = document.querySelector("#dark-mode-toggle");
 const darkModeName = document.querySelector("#dark-mode-name");
 const wrapper = document.querySelector(".wrapper");
-const aTags = document.querySelectorAll(".wrap");
-console.log(aTags);
+darkModeToggle.innerHTML = "&#xf204;";
+darkModeName.innerHTML = "Dark Mode";
 
 darkModeToggle.addEventListener("click", function () {
   this.classList.toggle("active");
+  this.innerHTML = "&#xf205;";
   wrapper.classList.toggle("active");
-  aTags.forEach(function (singleAtag) {
-    singleAtag.classList.toggle("active");
-    if (darkModeToggle.classList.contains("active")) {
-      darkModeName.innerHTML = "Light Mode";
-    } else {
-      darkModeName.innerHTML = "Dark Mode";
-    }
-  });
+  if (darkModeToggle.classList.contains("active")) {
+    darkModeName.innerHTML = "Light Mode";
+    darkModeToggle.innerHTML = "&#xf205;";
+  } else {
+    darkModeName.innerHTML = "Dark Mode";
+    darkModeToggle.innerHTML = "&#xf204;";
+  }
 });

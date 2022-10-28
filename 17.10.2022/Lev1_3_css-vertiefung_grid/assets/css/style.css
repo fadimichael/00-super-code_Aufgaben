@@ -1,0 +1,44 @@
+.grid-test {
+  display: grid;
+  grid-template-areas:
+    "head head head head"
+    "aside main main main"
+    "foot foot foot foot";
+  width: 50vw;
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10px;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 4fr 1fr;
+}
+
+
+header {
+  grid-area: head;
+  background-color: blue;
+  padding: 10px;
+  color: white;
+}
+
+aside {
+  grid-area: aside;
+  background-color: green;
+  padding: 10px;
+  color: white;
+}
+
+main {
+  grid-area: main;
+  background-color: red;
+  padding: 10px;
+  color: white;
+}
+
+footer {
+  grid-area: foot;
+  background-color: purple;
+  padding: 10px;
+  color: white;
+
+}

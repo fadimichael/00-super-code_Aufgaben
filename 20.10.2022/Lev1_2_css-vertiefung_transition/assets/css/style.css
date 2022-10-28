@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  position: relative;
+  width: 100vw;
+  height: 120px;
+  transition: left 3s;
+  transition-timing-function: linear;
+  -webkit-transition: left 3s;
+  -moz-transition: left 3s;
+  -ms-transition: left 3s;
+  -o-transition: left 3s;
+}
+
+
+.box1 {
+  background-color: red;
+  margin-bottom: 20px;
+  transition: all 2.5s;
+  -webkit-transition: all 2.5s;
+  -moz-transition: all 2.5s;
+  -ms-transition: all 2.5s;
+  -o-transition: all 2.5s;
+}
+
+.box2 {
+  background-color: green;
+  top: 70px;
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+}
+
+div {
+  position: absolute;
+  left: 0;
+  width: 50px;
+  height: 50px;
+
+}
+
+.box1 {
+  transition-delay: 1s;
+}
+
+.box:hover div {
+  left: 90%;
+
+}

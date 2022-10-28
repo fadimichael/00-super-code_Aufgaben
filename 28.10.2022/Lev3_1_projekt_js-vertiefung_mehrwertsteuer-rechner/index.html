@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mehrwertsteuer-Rechner</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <main>
+    <h1>MwSt. Rechner</h1>
+    <section>
+      <article class="frage">
+        <p>Was soll berechnet werden ?</p>
+        <input
+          type="radio"
+          name="brutto-netto"
+          onchange="bN(event)"
+          id="netto-zu-brutto"
+          checked
+        />
+        <label for="netto-zu-brutto"
+          >Mehrwertsteuer aufschlagen (Netto zu Brutto)</label
+        >
+        <br />
+        <input
+          type="radio"
+          name="brutto-netto"
+          onchange="bN(event)"
+          id="brutto-zu-netto"
+        />
+        <label for="brutto-zu-netto"
+          >Mehrwertsteuer abziehen (Brutto zu Netto)</label
+        >
+      </article>
+      <article class="steuer-satz">
+        <p>Mehrwertsteuersatz</p>
+        <input type="radio" name="satz" id="neuenzehn" checked />
+        <label for="neuenzehn%">19 %</label>
+        <input type="radio" name="satz" id="seben" />
+        <label for="seben">7 %</label>
+      </article>
+      <article class="number-input">
+        <p id="user-input-txt">
+          Nettobetrag (Preis ohne Mehrwertsteuer) in Euro<span>*</span>
+        </p>
+        <input
+          type="number"
+          name=""
+          id="user-input"
+          required
+          placeholder="Betrag eingeben"
+        /><br />
+      </article>
+      <div class="submit-button">
+        <input type="submit" value="BERECHNEN" onclick="mwstRechner(event)" />
+      </div>
+      <h2>Ergebniss</h2>
+      <article class="result">
+        <p>Mehrwertsteuerbetrag</p>
+        <h1 id="steuer-betrag">0.00 €</h1>
+      </article>
+      <article class="result">
+        <p id="brutto-netto-endpreis">Bruttobetrag(Endpreis)</p>
+        <h1 id="end-preis">0.00 €</h1>
+      </article>
+    </section>
+  </main>
+  <body>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
