@@ -1,37 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-  <body>
-    <main>
-      <section>
-        <p>Fonts Generator</p>
-        <input
-          type="range"
-          min="24"
-          max="72"
-          value="48"
-          step="24"
-          name="ran"
-          onchange="changeFontSize()"
-          id="range"
-        />
-        <label for="range">Font size</label>
-        <select name="sel" id="select" onchange="changeFontSize()">
-          <option value="bodoni">Bodoni Moda, sans-serif</option>
-          <option value="openSans">Open Sans, sans-serif</option>
-          <option value="roboto">Roboto, sans-serif</option>
-          <option value="yuseiMagic">Yusei Magic, sans-serif</option>
-        </select>
-        <input type="text" name="text" id="text" onchange="changeFontSize()" />
-        <h1></h1>
-      </section>
-    </main>
-    <script src="./assets/js/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <main>
+    <section>
+      <p>Fonts Generator</p>
+      <input type="range" min="18" max="72" value="48" step="4" name="range" onchange="changeFontSize()" id="range" />
+      <label for="range">Font size</label>
+      <select name="sel" id="select" onchange="changeFontSize()">
+        <option value="bodoni">Bodoni Moda, sans-serif</option>
+        <option value="openSans">Open Sans, sans-serif</option>
+        <option value="roboto">Roboto, sans-serif</option>
+        <option value="yuseiMagic">Yusei Magic, sans-serif</option>
+      </select>
+      <input type="text" name="text" id="text" onchange="changeFontSize()" />
+      <h1></h1>
+    </section>
+  </main>
+  <script src="./assets/js/main.js"></script>
+</body>
+
 </html>

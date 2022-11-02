@@ -22,13 +22,17 @@ function bN(event) {
 
 function mwstRechner(event) {
   event.preventDefault();
-  if (brutto.checked == true && neuenzehn.checked == true) {
+  if (userInput.value.includes(`-`)) {
+    window.alert(`bitte eine positiven wert eingeben`);
+    endPreis.innerHTML = `--`;
+    steuerBetrag.innerHTML = `--`;
+  } else if (brutto.checked == true && neuenzehn.checked == true) {
     steuerBetrag.innerHTML = (Number(userInput.value) * 0.19).toFixed(2) + " €";
     Number(steuerBetrag.value).toFixed(2);
     endPreis.innerHTML = (Number(userInput.value) * 1.19).toFixed(2) + " €";
   } else if (brutto.checked == true && seben.checked == true) {
     steuerBetrag.innerHTML = (Number(userInput.value) * 0.07).toFixed(2) + " €";
-    endPreis.innerHTML = Number(userInput.value) * 1.07 + " €";
+    endPreis.innerHTML = (Number(userInput.value) * 1.07).toFixed(2) + " €";
   } else if (netto.checked == true && neuenzehn.checked == true) {
     steuerBetrag.innerHTML =
       ((Number(userInput.value) / 1.19) * 0.19).toFixed(2) + " €";

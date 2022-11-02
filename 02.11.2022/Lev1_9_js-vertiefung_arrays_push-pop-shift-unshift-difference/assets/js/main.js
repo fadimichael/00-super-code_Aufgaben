@@ -1,0 +1,12 @@
+const werte = [23, 54, 75];
+console.log(werte);
+werte.push(11, 23, 42, 5, 71);
+console.log(werte);
+werte.unshift(1, 3, 7, 8, 14);
+console.log(werte);
+werte.pop();
+werte.pop();
+console.log(werte);
+werte.shift();
+werte.shift();
+console.log(werte);
