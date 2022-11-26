@@ -1,0 +1,52 @@
+.first-section>p {
+  color: #008004;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.first-section>h2 {
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  width: 70vw;
+  margin: auto;
+}
+
+.first-section-wrapper {
+  padding: 50px 150px 50px 100px;
+  display: flex;
+  gap: 150px;
+}
+
+.first-sec-article-left {
+  padding-bottom: 20px;
+}
+
+.first-sec-article-left h3:nth-of-type(1):before {
+  content: url(../imgs/brush.svg);
+  margin-left: -50px;
+  padding-right: 20px;
+
+
+}
+
+.first-sec-article-left h3:nth-of-type(2):before {
+  content: url(../imgs/megaphone.svg);
+  margin-left: -50px;
+  padding-right: 20px;
+
+}
+
+.first-sec-article-right h3:nth-of-type(1):before {
+  content: url(../imgs/object-select.svg);
+  margin-left: -50px;
+  padding-right: 20px;
+}
+
+.first-sec-article-right h3:nth-of-type(2):before {
+  content: url(../imgs/globe-line.svg);
+  margin-left: -50px;
+  padding-right: 20px;
+}

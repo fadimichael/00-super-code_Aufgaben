@@ -1,0 +1,13 @@
+.App {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px 10px;
+  margin: 20px;
+}
+
+.card {
+  text-align: center;
+  background-color: #333333;
+  color: white;
+}
