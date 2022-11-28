@@ -1,5 +1,5 @@
 import "./App.css";
-import GallareyItems from "./components/GallareyItems";
+import GallareyItems from "./components/GallareyItems.1";
 function App() {
   return (
     <div className="App">
